@@ -11,7 +11,7 @@ const Header = () => {
             <div class="container-fluid">
                 <div class="container-logo">
                     <a class="navbar-brand">
-                        <img src={logo} alt="" width="30" height="24"/>
+                        <img src={logo} alt="" width="75" height="70"/>
                     </a>
                 </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
