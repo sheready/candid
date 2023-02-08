@@ -1,0 +1,35 @@
+.header-column{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height: 350px;
+    flex-wrap: wrap;
+    margin-left: 2%;
+   }
+#banner-text{
+    height: 350px;
+    text-align: center;  
+}
+
+#banner-text h3{
+    margin-top: 100px;
+}
+
+#banner-text h1{
+    margin-top: 2px;
+}
+
+#banner-text h2{
+    margin-top: 2px;
+}
+
+#banner-video{
+    height: 350px;
+    width: 50vw;
+    margin-left: 2%;
+}
+
+#banner-video video{
+    height: 350px;
+    width: 50vw;
+}
