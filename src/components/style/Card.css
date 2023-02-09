@@ -1,0 +1,48 @@
+.row{
+    margin-top: 2%;
+}
+
+#card-info{
+    margin-top: 2%;
+}
+
+.card-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#card-header{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#carousel-card{
+    margin-top: 1px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+#circles-logo{
+    height: 50vh;
+    width: 100%;
+}
+
+#circles-div{
+    background-image: url("./parallax/circles.png");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 1.5%;
+
+}
