@@ -29,3 +29,13 @@
     height: 100%;
     width: 100%;
 }
+
+#banner-image{
+    height: 68vh;
+    width: 100%;
+
+}
+
+#banner-image img{
+    height: 69vh;
+}
