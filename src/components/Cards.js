@@ -11,11 +11,11 @@ import src6 from '../media/images/img6.jpg'
 const Cards = () => {
   return (
     <div>
-         <div>
+         <div id="join-card">
             <h1 id="card-header">JOIN US</h1>
             <div className="row">
             <div className="col-sm-4">
-                <div className="card">
+                <div className="card" id="card-join">
                     <div className="card-body">
                         <h5 className="card-title">WE ARE A TRUSTING COMMUNITY</h5>
                         <p className="card-text">Exists to create a trusting environment for Women to learn from each other, in an authentic way.</p>
@@ -24,7 +24,7 @@ const Cards = () => {
                 </div>
             </div>
             <div className="col-sm-4">
-                <div className="card">
+                <div className="card" id="card-join">
                     <div className="card-body">
                         <h5 className="card-title">WE LISTEN</h5>
                         <p className="card-text">Our unique event format ensures that every woman’s voice in the room is heard.</p>
@@ -33,7 +33,7 @@ const Cards = () => {
                 </div>
             </div>
             <div className="col-sm-4">
-                <div className="card">
+                <div className="card" id="card-join">
                     <div className="card-body">
                         <h5 className="card-title">WE SUPPORT</h5>
                         <p className="card-text">After every event women should leave feeling heard, with hope, equipped with immediate action plans and where possible a set of new friends.</p>
