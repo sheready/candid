@@ -1,41 +1,36 @@
-.row{
-    display:flex;
-    flex-direction:row;
+
+
+  .banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff4c6;
+    padding: 20px;
     width: 100%;
-    flex-wrap: wrap;
-   }
-#banner-text{
-    height: 350px;
-    text-align: center;  
-}
+  }
 
-#banner-text h3{
-    margin-top: 100px;
-}
+  .banner-text {
+    width: 50%;
+    text-align: left;
+    color: #005486;
+  }
 
-#banner-text h1{
-    margin-top: 2px;
-}
+  .banner-image {
+    width: 50%;
+  }
 
-#banner-text h2{
-    margin-top: 2px;
-}
+  @media (max-width: 768px) {
+    .banner-text, .banner-image {
+      width: 100%;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .banner-image img{
+        width: 100%;
+      }
+    
+  }
+  
 
-#banner-video{
-    height: 350px;
-}
 
-#banner-video video{
-    height: 100%;
-    width: 100%;
-}
-
-#banner-image{
-    height: 68vh;
-    width: 100%;
-
-}
-
-#banner-image img{
-    height: 69vh;
-}
+  
