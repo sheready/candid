@@ -6,7 +6,7 @@ import logo from '../media/images/logo.png'
 const Header = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="container-logo">
                     <a class="navbar-brand">
