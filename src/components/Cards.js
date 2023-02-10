@@ -11,6 +11,7 @@ import src6 from '../media/images/img6.jpg'
 const Cards = () => {
   return (
     <div>
+       
          <div id="join-card">
             <h1 id="card-header">JOIN US</h1>
             <div className="row">
@@ -43,6 +44,40 @@ const Cards = () => {
             </div>
             </div>
             
+        </div>
+        <div id="circles-div">
+        
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body" id="youtube-vid">
+                        <iframe
+                            src="https://www.youtube.com/embed/FLTFRSXw-ps" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>    
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body" id="youtube-vid">
+                <iframe 
+                    src="https://www.youtube.com/embed/Iucw2pyuMXM" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="circles-div">
+        
         </div>
         <h1 id="card-header">HIGHLIGHTS FROM PAST EVENTS</h1>
         <div className="row" id="carousel">
@@ -79,12 +114,7 @@ const Cards = () => {
             
             </div>
         </div>
-        <div id="circles-div">
-        
-        </div>
-       
-       
-       
+
 
     </div>
   )
