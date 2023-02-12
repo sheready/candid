@@ -79,40 +79,45 @@ const Cards = () => {
         <div id="circles-div">
         
         </div>
-        <h1 id="card-header">HIGHLIGHTS FROM PAST EVENTS</h1>
-        <div className="row" id="carousel">
-            <div className="col-sm-6" id="carousel-card">
-                <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={src1} class="d-block w-100" alt="Wild Landscape" />
-                        </div>
-                        <div class="carousel-item" data-mdb-interval="2000">
-                            <img src={src2} class="d-block w-100" alt="Camera" />
-                        </div>
-                        <div class="carousel-item" data-mdb-interval="2000">
-                            <img src={src3} class="d-block w-100" alt="Exotic Fruits" />
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            <div className="col-sm-6" id="carousel-card">
-                <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={src4} class="d-block w-100" alt="Wild Landscape" />
-                        </div>
-                        <div class="carousel-item" data-mdb-interval="1500">
-                            <img src={src5} class="d-block w-100" alt="Camera" />
-                        </div>
-                        <div class="carousel-item" data-mdb-interval="1500">
-                            <img src={src6} class="d-block w-100" alt="Exotic Fruits" />
+        <div id="div-carousel">
+            <h1 id="card-header">HIGHLIGHTS FROM PAST EVENTS</h1>
+            <div className="row" id="carousel">
+                <div className="col-sm-6" id="carousel-card">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-mdb-interval="2300">
+                                <img src={src1} class="d-block w-100" alt="Wild Landscape" />
+                            </div>
+                            <div class="carousel-item" data-mdb-interval="2300">
+                                <img src={src2} class="d-block w-100" alt="Camera" />
+                            </div>
+                            <div class="carousel-item" data-mdb-interval="2500">
+                                <img src={src3} class="d-block w-100" alt="Exotic Fruits" />
+                            </div>
                         </div>
                     </div>
+                
                 </div>
+                <div className="col-sm-6" id="carousel-card">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-mdb-interval="2300">
+                                <img src={src4} class="d-block w-100" alt="Wild Landscape" />
+                            </div>
+                            <div class="carousel-item" data-mdb-interval="2300">
+                                <img src={src5} class="d-block w-100" alt="Camera" />
+                            </div>
+                            <div class="carousel-item" data-mdb-interval="2500">
+                                <img src={src6} class="d-block w-100" alt="Exotic Fruits" />
+                            </div>
+                        </div>
+                    </div>
             
+                </div>
+
             </div>
+     
+        
         </div>
 
 
