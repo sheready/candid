@@ -13,8 +13,16 @@ const Header = () => {
                         <img src={logo} alt="" width="75" height="70"/>
                     </a>
                 </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                {/* <span class="navbar-toggler-icon"></span> */}
+                <span class="line"></span> 
+                <span class="line"></span> 
+                <span class="line"></span>
             </button>
                 <div class="nav-list collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-12 mb-lg-0">
