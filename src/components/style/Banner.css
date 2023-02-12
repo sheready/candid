@@ -19,11 +19,27 @@
     width: 50%;
   }
 
-  @media (max-width: 768px) {
+  @media(max-width:830px){
     .banner-text, .banner-image {
-      width: 100%;
+      width: 90%;
       text-align: center;
       flex-wrap: wrap;
+    }
+
+
+  }
+
+  @media (max-width: 768px) {
+    .banner-text, .banner-image {
+      width: 62%;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .banner-text h1{
+      font-size: 19px;
+    }
+    .banner-text h3{
+      font-size: 16px;
     }
     .banner-image img{
         width: 100%;
