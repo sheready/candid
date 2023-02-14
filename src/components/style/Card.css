@@ -1,18 +1,23 @@
 .row{
-    margin-top: 2%;
+    margin-bottom: -1%;
+}
+
+#youtube-row{
+    background-color: #fffcef;
+    margin-bottom: -1%;
+}
+#carousel{
+    background-color: #fffcef;
+    margin-bottom: -1%;
 }
 
 #card-info{
-    margin-top: 2%;
-    
+    margin-top: 2%; 
 }
-
-
 #card-header{
     text-align: center;
     margin-top: 1%;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 #carousel{
@@ -63,9 +68,8 @@
 
 #join-card{
     height: 30%;
+       
 }
-
-
 
 #card-join{
     height: 3%;
@@ -81,4 +85,9 @@
 #youtube-vid iframe{
     width:100%; 
     height:35vh;
+}
+#div-carousel{
+    background-color: #fffcef;
+    margin: -1%;
+    
 }
