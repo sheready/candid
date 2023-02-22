@@ -95,9 +95,24 @@
 }
 #div-carousel{
     background-color: #fffcef;
-    margin: -1%;
-    
+    margin: -1%;    
 }
+
+#circles-header{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#card-circles{
+    height: 3%;
+    padding: 10px;
+
+}
+
+#row-circles{
+    margin-top: 2%;
+}
+
 
 /* image gallery */
 
