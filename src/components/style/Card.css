@@ -78,11 +78,6 @@
 
 }
 
-#card-join img{
-    height: 50px;
-    width: 50px;
-    align-self: center;
-}
 
 #video-div{
     width: 100%;
@@ -109,10 +104,59 @@
 
 }
 
+#card-circles img{
+    height: 50px;
+    width: 50px;
+    margin-left: 45%;
+}
+
 #row-circles{
     margin-top: 2%;
 }
 
+#card-col{
+    transition: all 0.2s ease;
+    cursor: pointer;
+   
+}
+
+#card-col:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(0.9);
+}
+
+
+#join-col{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+#join-col:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(0.9);
+    
+}
+
+#listen-img{
+    height: 50px;
+    width: 55px;
+    align-self: center;
+
+}
+
+#trust-img{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+
+}
+
+#support-img{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+
+}
 
 /* image gallery */
 
