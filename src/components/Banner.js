@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/Banner.css';
-import logo from '../media/images/logo.png'
+
 
 const Banner = () => {
   return (
