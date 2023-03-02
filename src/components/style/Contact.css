@@ -36,6 +36,14 @@ html,body
   
   }
 
+  #contact-form{
+    margin: 2% 10% 0 10%;
+  }
+
+  #contact-header-form{
+    text-align: center;
+  }
+
   @media(max-width:830px){
     .contact-text, .contact-image {
       width: 90%;
