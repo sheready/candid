@@ -40,6 +40,19 @@ html,body
   #topic-header{
     text-align: center;
     font-weight: bold;
+    margin-top: 1%;
+    color: #005486;
+  }
+
+  #about-text{
+    font-size: 22px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #about-card{
+    margin-top: 2%;
+    border: none;
   }
 
   @media(max-width:830px){
