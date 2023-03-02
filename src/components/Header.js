@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink, Link } from "react-router-dom";
 import './style/Header.css'
 import logo from '../media/images/logo.png'
 
@@ -9,9 +10,11 @@ const Header = () => {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="container-logo">
-                    <a class="navbar-brand">
-                        <img src={logo} alt="" width="75" height="70"/>
-                    </a>
+                    <Link to="/">
+                        <a class="navbar-brand">
+                            <img src={logo} alt="" width="75" height="70"/>
+                        </a>
+                    </Link>
                 </div>
             <button class="navbar-toggler" type="button" 
                 data-bs-toggle="collapse" 
@@ -27,13 +30,13 @@ const Header = () => {
                 <div class="nav-list collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-12 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <NavLink to="/" class="nav-link" aria-current="page">Home</NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <NavLink to="/about" class="nav-link" >About Us</NavLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <NavLink to="/contact" class="nav-link">Contact Us</NavLink>
                     </li>
                 </ul>
                 </div>
