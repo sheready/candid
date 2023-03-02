@@ -1,6 +1,7 @@
 import React from 'react'
 import './style/Footer.css'
-import logo from '../media/images/logo.png'
+import logo from '../media/images/logo.png';
+import { NavLink, Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,14 +10,16 @@ const Footer = () => {
                 <div class="row text-center text-xs-center text-sm-left text-md-left">
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <ul class="list-unstyled quick-links">
-                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
-                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Join Us As A Retailer</a></li>
+                            <li><NavLink to="/" href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</NavLink></li>
+                            <li><NavLink to="/about" href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</NavLink></li>
+                            <li><NavLink to="/" href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</NavLink></li>
+                            <li><NavLink to="/contact" href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contact Us</NavLink></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4" id="logo-footer">
-                        <img src={logo} alt="logo" />
+                        <Link to="/">
+                            <img src={logo} alt="logo" />
+                        </Link>
                     </div>
                 </div>
                     <hr></hr>
