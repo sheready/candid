@@ -3,7 +3,6 @@
 }
 
 #youtube-row{
-    background-color: #fffcef;
     margin-bottom: -1%;
 }
 #carousel{
@@ -18,7 +17,10 @@
 #card-header{
     text-align: center;
     margin-top: 1%;
-    font-weight: bold; 
+    color: #005486;
+    font-size: 30px;
+    margin-bottom: 3%;
+
 }
 
 #carousel{
@@ -157,6 +159,8 @@
     align-self: center;
 
 }
+
+
 
 /* image gallery */
 
