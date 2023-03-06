@@ -11,7 +11,7 @@ const About = () => {
     </div>
     
     <div class="card text-center" id="about-card">
-      <h4 id="topic-header"></h4>
+      <h5 id="topic-header">WE ARE A TRUSTING ENVIRONMENT FOR WOMEN IN BUSINESS</h5>
       <div class="card-body" id="about-body">
         <p class="card-text" id="about-text">
           <i>Candid Conversations: Circles for women in Business </i> 
