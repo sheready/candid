@@ -21,7 +21,7 @@ const Cards = () => {
     <div>
        
          <div id="join-card">
-            <h1 id="card-header">JOIN US</h1>
+            <h3 id="card-header">JOIN US</h3>
             <div className="row">
             <div className="col-sm-4" id="join-col">
                 <div className="card" id="card-join">
@@ -60,7 +60,7 @@ const Cards = () => {
         
         </div>
         <div className="row" id="youtube-row">
-            <h2 id="card-header">CIRCLES OF TRUST</h2>
+            <h3 id="card-header">CIRCLES OF TRUST</h3>
             <div className="col-sm-6">
                 <div className="card">
                     <div className="card-body" id="youtube-vid">
@@ -88,8 +88,9 @@ const Cards = () => {
                 </div>
             </div>
         </div>
+        
         <br></br>
-        <h2 id="card-header">BENEFITS OF JOINING CIRCLES OF TRUST</h2>
+        <h3 id="card-header">BENEFITS OF JOINING CIRCLES OF TRUST</h3>
             <div className='row' id="row-circles">
                     <div className="col-sm-4" id="card-col">
                         <div class="card">
