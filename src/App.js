@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import { Routes, Route } from "react-router-dom";
+import Circles from './components/Circles';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="circles-of-trust" element={<Circles />} />
         <Route path="contact" element={<Contact />} />
         <Route
           path="*"
