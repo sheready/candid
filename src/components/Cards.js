@@ -56,6 +56,88 @@ const Cards = () => {
             </div>
             
         </div>
+        <div id="events-div">
+
+        </div>
+      
+        <div className="row" id="row-flip">
+            <h4 id="card-header">PAST EVENTS WE HAVE HOSTED</h4>
+            <div className="col-sm-6" id="col-flip">
+                <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-one">
+                        </div>
+                        <div className="back-flip" id="back-one">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="col-sm-6" id="col-flip">
+            <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-two">
+                        </div>
+                        <div className="back-flip" id="back-two">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div className="row" id="row-flip">
+            <div className="col-sm-6" id="col-flip">
+            <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-three">
+                        </div>
+                        <div className="back-flip" id="back-three">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="col-sm-6" id="col-flip">
+                <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-four">
+                        </div>
+                        <div className="back-flip" id="back-four">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div className="row" id="row-flip">
+            <div className="col-sm-6" id="col-flip">
+            <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-five">
+                        </div>
+                        <div className="back-flip" id="back-five">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="col-sm-6" id="col-flip">
+                <div className="card-flip">
+                    <div className="content">
+                        <div className="front-flip" id="front-six">
+                        </div>
+                        <div className="back-flip" id="back-six">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="events-div">
+
+        </div>
         <div id="circles-div">
         
         </div>
@@ -93,11 +175,11 @@ const Cards = () => {
         <h3 id="card-header">BENEFITS OF JOINING CIRCLES OF TRUST</h3>
             <div className='row' id="row-circles">
                     <div className="col-sm-4" id="card-col">
-                        <div class="card">
-                            <div class="card-body" id="card-circles">
-                                <h5 class="card-title">WE SELL YOU, ON YOUR BEHALF</h5>
+                        <div className="card">
+                            <div className="card-body" id="card-circles">
+                                <h5 className="card-title">WE SELL YOU, ON YOUR BEHALF</h5>
                                 <img src={sell} alt="sell"/>
-                                <p class="card-text">
+                                <p className="card-text">
                                 Your circle of trust members can act as advocates for you.
                                 They can sell your skills and experience to hiring managers on the lookout for talent. 
                                 They can get you into key meetings, make sure you take the right training and make it onto the high potential list.
@@ -107,11 +189,11 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="col-sm-4" id="card-col">
-                        <div class="card">
-                            <div class="card-body" id="card-circles"  >
-                                <h5 class="card-title">WE HOLD YOU ACCOUNTABLE</h5>
+                        <div className="card">
+                            <div className="card-body" id="card-circles"  >
+                                <h5 className="card-title">WE HOLD YOU ACCOUNTABLE</h5>
                                 <img src={accountability} alt="account"/>
-                                <p class="card-text">
+                                <p className="card-text">
                                 It’s not just a matter of sharing their views; the very best circle of trust members will actively challenge you and ask the really hard questions about your grand strategy and plans. This will help you discover and get clear on the
                                 potential flaws in your plan.
                                
@@ -121,11 +203,11 @@ const Cards = () => {
                         </div>
                     </div>
                     <div className="col-sm-4" id="card-col">
-                        <div class="card">
-                            <div class="card-body" id="card-circles">
-                                <h5 class="card-title">WE PROVIDE SUPPORT</h5>
+                        <div className="card">
+                            <div className="card-body" id="card-circles">
+                                <h5 className="card-title">WE PROVIDE SUPPORT</h5>
                                 <img src={support} alt="support"/>
-                                <p class="card-text">
+                                <p className="card-text">
                                 The members of your circle will not only help you in hard times, but will also be there to celebrate successes and the milestones of your career or advances in life. This group of allies will put their arms around you in good times and bad.
                                 </p>
 
@@ -135,22 +217,22 @@ const Cards = () => {
                 </div>
                 <div className='row' id="row-circles">
                     <div className="col-sm-6" id="card-col">
-                        <div class="card">
-                            <div class="card-body" id="card-circles">
-                                <h5 class="card-title">WE OPEN DOORS & EXPAND YOUR NETWORK </h5>
+                        <div className="card">
+                            <div className="card-body" id="card-circles">
+                                <h5 className="card-title">WE OPEN DOORS & EXPAND YOUR NETWORK </h5>
                                 <img src={network} alt="doors"/>
-                                <p class="card-text">
+                                <p className="card-text">
                                 Every individual who sits in your circle holds the key to doors that otherwise may be closed to you. They can be your door to key business contacts, prospects, and others who can help you.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-6" id="card-col">
-                        <div class="card">
-                            <div class="card-body" id="card-circles"  >
-                                <h5 class="card-title">WE WILL COACH & CHALLENGE YOU</h5>
+                        <div className="card">
+                            <div className="card-body" id="card-circles"  >
+                                <h5 className="card-title">WE WILL COACH & CHALLENGE YOU</h5>
                                 <img src={coach} alt="coach"/>
-                                <p class="card-text">
+                                <p className="card-text">
                                 Your circle of trust members should be able to hold you
                                 accountable for your actions and behavior impacting your professional performance.
                                 
