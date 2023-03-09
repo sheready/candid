@@ -53,7 +53,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 1.5%;
+
 
 }
 
@@ -162,5 +162,147 @@
 
 
 
-/* image gallery */
+/* flip card */
+#events-div{
+    background-color: #fff4c6;
+    height: 5vh;
+    width: 100%;
+    margin: 0%;
+}
+
+.card-flip {
+    width: 100%;
+    height: 100%;
+    perspective: 500px;
+  }
+
+  #col-flip{
+    width: 465px;
+    height: 300px;
+    perspective: 500px;
+    margin: 0.5%;
+
+
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card-flip:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front-flip,
+  .back-flip {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 300px;
+    color: #03446A;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+
+  #front-three{
+    background-image: url('../style/events/money.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  #front-one{
+    background-image: url('../style/events/money.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #front-two{
+    background-image: url('../style/events/social.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #front-three{
+    background-image: url('../style/events/opp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #front-four{
+    background-image: url('../style/events/intent.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #front-five{
+    background-image: url('../style/events/tech.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #front-six{
+    background-image: url('../style/events/single.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #back-one {
+    background-image: url('../style/events/money.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+  #back-two{
+    background-image: url('../style/events/social.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+  #back-three {
+    background-image: url('../style/events/opp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+  #back-four {
+    background-image: url('../style/events/intent.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+  #back-five {
+    background-image: url('../style/events/tech.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+  #back-six{
+    background-image: url('../style/events/single.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY( 180deg );
+  }
+
+  #row-flip{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff4c6;
+    height: fit-content;
+    margin: 0%;
+    position: relative;
+    justify-content: center;
+
+  }
 
